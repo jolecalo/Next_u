@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Leccion 3</title>
+    <link rel="stylesheet" href="./publics/css/estilo_taller_L3.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Seleccion de Pa&iacute;s</legend>
+            <br>
+            <label for="nombre">Digita tu Nombre: </label><input type="text" placeholder="Juan Díaz" min="3" max="40">
+            <br>
+            <br>
+            <label for="fecha"></label>Digita la fecha de tu nacimiento:<input type="date" placeholder="DD/MM/AAAA">
+            <br>
+            <br>
+            <label for="pais">Selecciona el país a visitar </label><select name="pais" id="pais">
+                <option value="Colombia">Colombia</option>
+                <option value="Peru">Per&uacute;</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+            </select>
+            <br>
+            <br>
+            <button onclick="grabDatos()">Visitar</button>
+        </fieldset>
+    </form>
+<script src="./javascript/taller_l3.js"></script>
+</body>
+
+</html>

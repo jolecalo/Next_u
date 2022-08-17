@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header {
+    background: darkmagenta;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+div {
+    font-size: 26px;
+    display: flex;
+    float: right;
+    text-justify: newspaper;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+footer {
+    height: 25px;
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
